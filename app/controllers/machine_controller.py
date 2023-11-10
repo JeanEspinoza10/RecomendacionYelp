@@ -95,9 +95,9 @@ class MachineL:
             print(df_matrix)
 
 
-            user_predictions =  np.load("./Data/users_predictions.npy")
+            business_prediccion =  np.load("./Data/users_predictions.npy")
 
-            print(user_predictions)
+            print(business_prediccion)
 
             # Realizando el proceso de recomendación
 
@@ -106,13 +106,13 @@ class MachineL:
 
            
             
-            user0=user_predictions.argsort()[indice_fila]
+            busines_one=business_prediccion.argsort()[indice_fila]
 
             
             
 
             nombre = []
-            for i, aRepo in enumerate(user0[-3:]):
+            for i, aRepo in enumerate(busines_one[-3:]):
                 
                 nombre.append(df_matrix.columns[aRepo])
                 
