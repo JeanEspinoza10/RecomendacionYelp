@@ -1,6 +1,6 @@
 # Arquitectura
 El presente servicio Apirest tendra el siguiente flujo:
-![Estructura](img\arquitectura.png)
+![[Flujograma del pryecto]](img\arquitectura.png)
 
 # Algoritmo de Recomendación
 Estos sistemas personalizan las recomendaciones segun las calificaciones que recibe cada item. Para el presente trabajo de los diferentes sistemas de recomendacion se elijio el de Collaborative Filtering, adaptandolo para nuestras necesidades.
